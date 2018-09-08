@@ -231,7 +231,6 @@ ManyamPlotlyTimeline.prototype.plot = function () {
         layout.yaxis.ticktext = ticktext;
         layout.margin["l"] = ManyamPlotlyTimeline.calculateAxisMargin(lables);
         layout["height"] = layout.margin['t'] + (20 * data.length) + layout.margin['b']; // Needed for correct bar height 
-        console.log('traceData', traceData);
         Plotly.newPlot(this.DOMElementSelector, [traceData], layout, configuration);
 
     } catch (e) {
