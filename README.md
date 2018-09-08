@@ -45,7 +45,7 @@ data = [
 }]
 ```
 
-#### Call ManyamPlotlyTimeline method on the object create the grid
+#### Call generateTimelinePlot method on the object create the grid
 ```javascript
 var params = {
     data: data,
@@ -54,7 +54,7 @@ var params = {
     labelKey: 'event',
     toolTipKeys: ['start_time', 'end_time', 'event']
 };
-timeline.ManyamPlotlyTimeline(params);
+timeline.generateTimelinePlot(params);
 ```
 
 That's it!
