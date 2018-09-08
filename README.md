@@ -3,7 +3,7 @@ manyamPlotlyTimeline
 
 ### Plotly javascript workaround to generate timeline view using bar charts
 
-![alt text](screenshots/screenshot-01.PNG "Sample data view")
+![alt text](screenshots/screenshot-01.png "Sample timeline view")
 
 Why manyamPlotlyTimeline exists -
 1. Plotly which is awesome in itself hasn't yet developed a timeline view but provides great interactivity such as zoom, tootlips, chart download and much more. Refer [plotly](https://plot.ly/javascript/) for more information.
@@ -45,7 +45,7 @@ data = [
 }]
 ```
 
-#### Call generateTreeTable method on the object create the grid
+#### Call ManyamPlotlyTimeline method on the object create the grid
 ```javascript
 var params = {
     data: data,
@@ -54,7 +54,7 @@ var params = {
     labelKey: 'event',
     toolTipKeys: ['start_time', 'end_time', 'event']
 };
-manyamGrid.generateTreeTable(params);
+timeline.ManyamPlotlyTimeline(params);
 ```
 
 That's it!
