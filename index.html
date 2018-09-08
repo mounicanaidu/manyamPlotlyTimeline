@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Manyam Plotly Timeline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- plotly CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- manyamPlotyTimeline plugin -->
+    <script src="manyamPlotlyTimeline.js"></script>
+    <!-- data -->
+    <script src="data.json"></script>
+</head>
+<body>
+    <div id='timelinePlot'></div>
+    <script type="text/javascript">
+        // Initialize
+        var timeline = new ManyamPlotlyTimeline('timelinePlot');
+        // Call generate plot method
+        timeline.generateTimelinePlot({
+            data: data,
+            startTimeKey: 'start_time',
+            endTimeKey: 'end_time',
+            labelKey: 'event',
+            toolTipKeys: ['start_time', 'end_time', 'event']
+        });
+    </script>
+</body>
+</html>

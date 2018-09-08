@@ -1,0 +1,97 @@
+data = [
+    {
+        "start_time": "2018-06-13",
+        "end_time": "2017-07-20",
+        "event": "Hydroxyzine Hydrochloride"
+    },
+    {
+        "start_time": "2016-07-04",
+        "end_time": "2018-03-22",
+        "event": "AcneFree Severe Maximum Strength Repair Lotion"
+    },
+    {
+        "start_time": "2017-06-30",
+        "end_time": "2017-05-27",
+        "event": "Lovastatin"
+    },
+    {
+        "start_time": "2017-02-15",
+        "end_time": "2018-08-12",
+        "event": "Certus Alcohol Prep"
+    },
+    {
+        "start_time": "2017-01-11",
+        "end_time": "2016-05-11",
+        "event": "Morphine Sulfate"
+    },
+    {
+        "start_time": "2015-09-08",
+        "end_time": "2015-10-05",
+        "event": "CLARINS Extra-Comfort Broad Spectrum SPF 15 Sunscreen Tint 114"
+    },
+    {
+        "start_time": "2017-07-03",
+        "end_time": "2018-04-15",
+        "event": "Indomethacin"
+    },
+    {
+        "start_time": "2015-12-31",
+        "end_time": "2018-05-14",
+        "event": "Softlips Coconut Cream"
+    },
+    {
+        "start_time": "2018-03-04",
+        "end_time": "2016-11-26",
+        "event": "Quetiapine fumarate"
+    },
+    {
+        "start_time": "2016-12-04",
+        "end_time": "2016-11-23",
+        "event": "Hydrocodone Bitartrate and Acetaminophen"
+    },
+    {
+        "start_time": "2016-10-05",
+        "end_time": "2017-12-13",
+        "event": "FLUZONE Intradermal"
+    },
+    {
+        "start_time": "2017-07-10",
+        "end_time": "2016-04-11",
+        "event": "Tag Away"
+    },
+    {
+        "start_time": "2017-04-09",
+        "end_time": "2016-04-24",
+        "event": "BLEPHAMIDE"
+    },
+    {
+        "start_time": "2018-08-08",
+        "end_time": "2017-10-14",
+        "event": "MG DermaClean"
+    },
+    {
+        "start_time": "2017-04-08",
+        "end_time": "2017-06-15",
+        "event": "Warfarin Sodium"
+    },
+    {
+        "start_time": "2017-10-08",
+        "end_time": "2016-10-05",
+        "event": "Lady Speed INVISIBLE DRY antiperspirant deodorant"
+    },
+    {
+        "start_time": "2016-07-15",
+        "end_time": "2018-05-23",
+        "event": "Famciclovir"
+    },
+    {
+        "start_time": "2018-01-23",
+        "end_time": "2016-05-06",
+        "event": "ERYTHROMYCIN Base Filmtab"
+    },
+    {
+        "start_time": "2018-07-06",
+        "end_time": "2017-07-26",
+        "event": "Minocycline Hydrochloride"
+    }
+]
