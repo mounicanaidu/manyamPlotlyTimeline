@@ -7,7 +7,7 @@ manyamPlotlyTimeline
 
 Why manyamPlotlyTimeline exists -
 1. Plotly which is awesome in itself hasn't yet developed a timeline view but provides great interactivity such as zoom, tootlips, chart download and much more. Refer [plotly](https://plot.ly/javascript/) for more information.
-2. Doing a completely own timeline takes effort and is time consuming.
+2. Creating a new timeline takes effort and is time consuming.
 
 Getting started
 --------------
